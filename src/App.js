@@ -34,22 +34,39 @@
 // }
 
 // export default App;
-import React from 'react';
-import StyledAgGrid from './components/StyledGrid';
+// import React from 'react';
+// import StyledAgGrid from './components/StyledGrid';
 
-function App() {
+// function App() {
+//   return (
+//     <div >
+//       <header style={{ textAlign: 'center', padding: '20px', backgroundColor: '#f5f5f5' }}>
+//         <h1 style={{ margin: '0', fontSize: '2rem', color: '#333' }}>AG Grid with Fake API</h1>
+//         <p style={{ color: '#666' }}>An example of AG Grid fetching and displaying data from a fake API</p>
+//       </header>
+//       <main >
+//         <StyledAgGrid />
+//       </main>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+import React from 'react';
+import LineChart from './components/LineChart'; // Adjust the path as needed
+
+const App = () => {
   return (
-    <div >
-      <header style={{ textAlign: 'center', padding: '20px', backgroundColor: '#f5f5f5' }}>
-        <h1 style={{ margin: '0', fontSize: '2rem', color: '#333' }}>AG Grid with Fake API</h1>
-        <p style={{ color: '#666' }}>An example of AG Grid fetching and displaying data from a fake API</p>
-      </header>
-      <main >
-        <StyledAgGrid />
-      </main>
+    <div>
+      <h1>My React App</h1>
+      <LineChart />
     </div>
   );
-}
+};
 
 export default App;
+
 
